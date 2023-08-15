@@ -20,7 +20,7 @@ class App extends React.Component {
     console.warn("console did update", preState);
   }
   render() {
-    console.warn("render checking");
+    console.warn("render checking thoda sa modify kiya later");
     return (
       <div className='App'>
         <h1> Component update {this.state.firstname} aur {this.state.lastname} aur {this.state.mobile} aur {this.state.count}</h1>
